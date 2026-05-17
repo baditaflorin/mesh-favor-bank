@@ -15,7 +15,7 @@ test("A logs a favor → B's ledger shows owed by bob", async ({ browser, baseUR
 
     await b.locator(".mesh-qrx-payload summary").click();
     const bPayload = (await b.locator(".mesh-qrx-payload code").textContent()) ?? "";
-    await a.getByPlaceholder("or paste a mesh:// payload").fill(bPayload);
+    await a.getByPlaceholder("or paste a payload (URL or mesh://)").fill(bPayload);
     await a.getByRole("button", { name: "use", exact: true }).click();
 
     await expect(a.locator(".fb-bal.is-pos").first()).toContainText("owes you 1");
