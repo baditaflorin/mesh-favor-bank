@@ -1,7 +1,7 @@
 # mesh-favor-bank
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-favor-bank-ec4899)](https://baditaflorin.github.io/mesh-favor-bank/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-favor-bank/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-favor-bank/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Track favors between people via QR scans — ledger of who owes whom
